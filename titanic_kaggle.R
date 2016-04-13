@@ -39,4 +39,4 @@ colnames(kaggle_sub) = c("PassengerId", "Survived")
 write.csv(kaggle_sub, file = "titanic_kaggle_prediction.csv", row.names = FALSE)
 
 # May have to go into the csv file and manually change the 2's to 1's and the 1's to 0's for the results.
-# I did this in excel using the replacement finder tool.
+# I did this using the replacement finder tool.
